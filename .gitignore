@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env*
+venv/
+ENV/
+*.sqlite3
+*.db
+*.log
+*.csv
+*.tsv
+*.dat
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# VSCode
+.vscode/
+
+# Secrets
+*.secret
+*.key
+*.pem
+*.crt
+*.pfx
+*.env
+.env.*
+config.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.bak
+*.swp
+*.swo
+
+# Ignore API keys
+api_keys.yaml
+openrouter_api_key.txt
