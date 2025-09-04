@@ -1,0 +1,12 @@
+crewai
+liteLLM
+edgartools
+requests
+pandas
+pydantic
+python-dotenv
+plotly
+PyYAML
+beautifulsoup4
+lxml
+openai

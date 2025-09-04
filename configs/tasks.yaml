@@ -1,0 +1,43 @@
+collect_sec_data:
+  description: |
+    Collect recent SEC Form 4 insider trading filings for specified stock symbols.
+    Focus on transactions from the last 24 hours and extract key details including
+    transaction type, shares traded, and insider role.
+  expected_output: |
+    A structured dataset containing insider trading transactions with details:
+    - Symbol, insider name, transaction type (buy/sell)
+    - Number of shares, transaction value, date
+    - Insider role and relationship to company
+
+analyze_historical_trends:
+  description: |
+    Analyze historical insider trading patterns for the past week and compare
+    with current day activity. Identify any unusual patterns or significant
+    changes in trading volume or direction.
+  expected_output: |
+    A comparative analysis report showing:
+    - Week-over-week changes in insider activity
+    - Identification of unusual patterns or anomalies
+    - Statistical significance of changes
+
+analyze_social_sentiment:
+  description: |
+    Analyze recent social media posts from top 10 financial X creators regarding
+    the target stock symbols. Extract sentiment scores and key themes discussed.
+  expected_output: |
+    A sentiment analysis report containing:
+    - Overall sentiment score for each symbol
+    - Key themes and topics discussed
+    - Individual creator sentiment breakdown
+
+generate_comprehensive_report:
+  description: |
+    Synthesize all collected data into a comprehensive investment intelligence report.
+    Include visualizations, key insights, and actionable recommendations based on
+    the combined analysis of insider trading and social sentiment.
+  expected_output: |
+    A complete report with:
+    - Executive summary with key findings
+    - Detailed analysis sections
+    - Charts and visualizations
+    - Investment recommendations and risk assessment
