@@ -7,22 +7,64 @@
       "accession_number": "0000950103-25-011299",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011299/dp233881_4-newstead.xml",
+      "transactions": [
+        {
+          "security_title": "Class A Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 519.0,
+          "price_per_share": 726.25,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 31908.0
+        }
+      ],
       "issuer": {
         "name": "Meta Platforms, Inc.",
         "cik": "0001326801",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0000950103-25-011298",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011298/dp233880_4-olivan.xml",
+      "transactions": [
+        {
+          "security_title": "Class A Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 517.0,
+          "price_per_share": 726.25,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 12094.0
+        }
+      ],
       "issuer": {
         "name": "Meta Platforms, Inc.",
         "cik": "0001326801",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     }
   ],
-  "last_updated": "2025-09-06T22:04:47.490429"
+  "last_updated": "2025-09-06T23:04:08.343379"
 }

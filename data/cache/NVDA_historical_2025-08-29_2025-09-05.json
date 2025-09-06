@@ -7,52 +7,311 @@
       "accession_number": "0001219888-25-000005",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000121988825000005/wk-form4_1757019606.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 72000.0,
+          "price_per_share": 170.6259,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 386887.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 18000.0,
+          "price_per_share": 172.0,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 368887.0
+        }
+      ],
       "issuer": {
         "name": "NVIDIA CORP",
         "cik": "0001045810",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     },
     {
       "accession_number": "0001283854-25-000004",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000128385425000004/wk-form4_1756946639.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "G",
+          "transaction_type": "Gift",
+          "shares": 55172.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "ownership_nature": "I",
+          "remaining_shares": 1734443.0
+        }
+      ],
       "issuer": {
         "name": "NVIDIA CORP",
         "cik": "0001045810",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001197652-25-000005",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119765225000005/wk-form4_1756946443.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "G",
+          "transaction_type": "Gift",
+          "shares": 1200000.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "ownership_nature": "I",
+          "remaining_shares": 532728.0
+        }
+      ],
       "issuer": {
         "name": "NVIDIA CORP",
         "cik": "0001045810",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001768670-25-000005",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000176867025000005/wk-form4_1756946210.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "G",
+          "transaction_type": "Gift",
+          "shares": 1700.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "ownership_nature": "I",
+          "remaining_shares": 171410.0
+        }
+      ],
       "issuer": {
         "name": "NVIDIA CORP",
         "cik": "0001045810",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001197649-25-000027",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000027/wk-form4_1756945908.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 32488.0,
+          "price_per_share": 173.8729,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72815878.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 34773.0,
+          "price_per_share": 174.5759,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72781105.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 2860.0,
+          "price_per_share": 175.436,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72778245.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 3509.0,
+          "price_per_share": 176.7084,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72774736.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1370.0,
+          "price_per_share": 177.6669,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72773366.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 9391.0,
+          "price_per_share": 167.8642,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72763975.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 23316.0,
+          "price_per_share": 168.9946,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72740659.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 19876.0,
+          "price_per_share": 169.8152,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72720783.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 17540.0,
+          "price_per_share": 170.6894,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72703243.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 4877.0,
+          "price_per_share": 171.7427,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72698366.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 16955.0,
+          "price_per_share": 169.4812,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72681411.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 21785.0,
+          "price_per_share": 170.4358,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72659626.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 32641.0,
+          "price_per_share": 171.3282,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72626985.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 3619.0,
+          "price_per_share": 172.1181,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 72623366.0
+        }
+      ],
       "issuer": {
         "name": "NVIDIA CORP",
         "cik": "0001045810",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 14
     }
   ],
-  "last_updated": "2025-09-06T22:04:43.693256"
+  "last_updated": "2025-09-06T23:04:05.771555"
 }

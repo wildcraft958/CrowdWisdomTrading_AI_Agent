@@ -7,52 +7,542 @@
       "accession_number": "0001108524-25-000095",
       "filing_date": "2025-09-05",
       "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000095/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 161.5,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 11913821.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 162.0,
+          "price_per_share": 236.049,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913659.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 181.0,
+          "price_per_share": 237.2107,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913478.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 162.0,
+          "price_per_share": 238.4038,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913316.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 172.0,
+          "price_per_share": 239.9627,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913144.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 396.0,
+          "price_per_share": 241.688,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912748.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 293.0,
+          "price_per_share": 242.7161,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912455.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 808.0,
+          "price_per_share": 243.7013,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911647.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 76.0,
+          "price_per_share": 244.3784,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911571.0
+        },
+        {
+          "security_title": "Non-qualified Stock Option (Right to Buy)",
+          "transaction_date": "2025-09-04",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 2250.0
+        }
+      ],
       "issuer": {
         "name": "Salesforce, Inc.",
         "cik": "0001108524",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 10
     },
     {
       "accession_number": "0001108524-25-000091",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000091/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 161.5,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 11913821.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 198.0,
+          "price_per_share": 251.9969,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913623.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 456.0,
+          "price_per_share": 252.8898,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913167.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 242.0,
+          "price_per_share": 254.0811,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912925.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 742.0,
+          "price_per_share": 255.017,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912183.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 356.0,
+          "price_per_share": 255.8528,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911827.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 256.0,
+          "price_per_share": 257.1662,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911571.0
+        },
+        {
+          "security_title": "Non-qualified Stock Option (Right to Buy)",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 2250.0
+        }
+      ],
       "issuer": {
         "name": "Salesforce, Inc.",
         "cik": "0001108524",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 8
     },
     {
       "accession_number": "0001108524-25-000085",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000085/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 161.5,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 11913821.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 304.0,
+          "price_per_share": 249.361,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913517.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 234.0,
+          "price_per_share": 250.2035,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913283.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 689.0,
+          "price_per_share": 251.4807,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912594.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 760.0,
+          "price_per_share": 252.5428,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911834.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 219.0,
+          "price_per_share": 253.3084,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911615.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 44.0,
+          "price_per_share": 254.39,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911571.0
+        },
+        {
+          "security_title": "Non-qualified Stock Option (Right to Buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 2250.0
+        }
+      ],
       "issuer": {
         "name": "Salesforce, Inc.",
         "cik": "0001108524",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 8
     },
     {
       "accession_number": "0001108524-25-000081",
       "filing_date": "2025-09-02",
       "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000081/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 161.5,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 11913821.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 229.0,
+          "price_per_share": 253.6699,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913592.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 806.0,
+          "price_per_share": 254.5619,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912786.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 334.0,
+          "price_per_share": 255.4353,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912452.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 852.0,
+          "price_per_share": 256.3166,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911600.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 29.0,
+          "price_per_share": 257.1904,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911571.0
+        },
+        {
+          "security_title": "Non-qualified Stock Option (Right to Buy)",
+          "transaction_date": "2025-08-29",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 2250.0
+        }
+      ],
       "issuer": {
         "name": "Salesforce, Inc.",
         "cik": "0001108524",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 7
     },
     {
       "accession_number": "0001108524-25-000079",
       "filing_date": "2025-08-29",
       "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000079/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 161.5,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 11913821.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 89.0,
+          "price_per_share": 251.2845,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913732.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 564.0,
+          "price_per_share": 252.4957,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11913168.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 400.0,
+          "price_per_share": 253.3896,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912768.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 745.0,
+          "price_per_share": 254.6108,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11912023.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 452.0,
+          "price_per_share": 255.2865,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11911571.0
+        },
+        {
+          "security_title": "Non-qualified Stock Option (Right to Buy)",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2250.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 2250.0
+        }
+      ],
       "issuer": {
         "name": "Salesforce, Inc.",
         "cik": "0001108524",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 7
     }
   ],
-  "last_updated": "2025-09-06T22:05:10.244488"
+  "last_updated": "2025-09-06T23:04:25.184398"
 }

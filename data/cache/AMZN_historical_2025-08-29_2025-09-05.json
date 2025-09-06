@@ -7,22 +7,64 @@
       "accession_number": "0001018724-25-000112",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000112/wk-form4_1757021968.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock, par value $.01  per share",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 2500.0,
+          "price_per_share": 223.49,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 518007.0
+        }
+      ],
       "issuer": {
         "name": "AMAZON COM INC",
         "cik": "0001018724",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001018724-25-000110",
       "filing_date": "2025-09-02",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000110/wk-form4_1756846328.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock, par value $.01  per share",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "G",
+          "transaction_type": "Gift",
+          "shares": 421693.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 883258188.0
+        }
+      ],
       "issuer": {
         "name": "AMAZON COM INC",
         "cik": "0001018724",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     }
   ],
-  "last_updated": "2025-09-06T22:04:36.723018"
+  "last_updated": "2025-09-06T23:03:59.774036"
 }

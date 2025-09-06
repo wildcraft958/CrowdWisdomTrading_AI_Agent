@@ -7,12 +7,33 @@
       "accession_number": "0001214128-25-000005",
       "filing_date": "2025-08-29",
       "url": "https://www.sec.gov/Archives/edgar/data/320193/000121412825000005/wk-form4_1756506606.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-28",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 90000.0,
+          "price_per_share": 232.07,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 4069576.0
+        }
+      ],
       "issuer": {
         "name": "Apple Inc.",
         "cik": "0000320193",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     }
   ],
-  "last_updated": "2025-09-06T22:04:15.229761"
+  "last_updated": "2025-09-06T23:03:47.176364"
 }

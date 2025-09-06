@@ -7,132 +7,823 @@
       "accession_number": "0001065280-25-000373",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000373/wk-form4_1756947390.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001370931-25-000004",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000137093125000004/wk-form4_1756947229.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001065280-25-000369",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000369/wk-form4_1756947205.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 57.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 57.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001065280-25-000368",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000368/wk-form4_1756947182.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001065280-25-000367",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000367/wk-form4_1756947159.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001244892-25-000003",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000124489225000003/wk-form4_1756947132.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001065280-25-000366",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000366/wk-form4_1756947110.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001065280-25-000364",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000364/wk-form4_1756947031.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001218352-25-000003",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000121835225000003/wk-form4_1756946638.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001638276-25-000004",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000163827625000004/wk-form4_1756946600.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0001543133-25-000004",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000154313325000004/wk-form4_1756946541.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 304.0,
+          "price_per_share": 289.29,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 3995.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2296.0,
+          "price_per_share": 286.81,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 6291.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 100.0,
+          "price_per_share": 1188.04,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 6191.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 100.0,
+          "price_per_share": 1197.06,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 6091.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1200.58,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 5891.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1204.01,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 5691.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 300.0,
+          "price_per_share": 1205.3567,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 5391.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 300.0,
+          "price_per_share": 1206.24,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 5091.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1208.84,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 4891.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1210.43,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 4691.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1211.46,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 4491.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1212.67,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 4291.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 500.0,
+          "price_per_share": 1214.17,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 3791.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 100.0,
+          "price_per_share": 1214.95,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 3691.0
+        },
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 304.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 304.0
+        },
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 2296.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 2296.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 16
     },
     {
       "accession_number": "0001065280-25-000362",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000362/wk-form4_1756946285.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 25959.0,
+          "price_per_share": 109.96,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 26353.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 500.0,
+          "price_per_share": 1186.182,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 25853.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 200.0,
+          "price_per_share": 1187.725,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 25653.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 26.0,
+          "price_per_share": 1191.5866,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 25627.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 100.0,
+          "price_per_share": 1194.05,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 25527.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1217.0,
+          "price_per_share": 1196.9395,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 24310.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 304.0,
+          "price_per_share": 1198.8031,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 24006.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 597.0,
+          "price_per_share": 1199.7794,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 23409.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 421.0,
+          "price_per_share": 1200.5539,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 22988.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 466.0,
+          "price_per_share": 1202.2349,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 22522.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1152.0,
+          "price_per_share": 1203.5975,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 21370.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1357.0,
+          "price_per_share": 1204.765,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 20013.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 3467.0,
+          "price_per_share": 1205.8149,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 16546.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1102.0,
+          "price_per_share": 1206.7118,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 15444.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 2412.0,
+          "price_per_share": 1207.8462,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 13032.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1693.0,
+          "price_per_share": 1208.6519,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11339.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1324.0,
+          "price_per_share": 1209.9353,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 10015.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 500.0,
+          "price_per_share": 1210.866,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 9515.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 2114.0,
+          "price_per_share": 1212.087,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 7401.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 2460.0,
+          "price_per_share": 1213.0598,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 4941.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 3259.0,
+          "price_per_share": 1214.1114,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 1682.0
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 1288.0,
+          "price_per_share": 1215.0079,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 394.0
+        },
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "M",
+          "transaction_type": "Exercise",
+          "shares": 25959.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "derivative": true,
+          "underlying_shares": 25959.0
+        },
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 52.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 52.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 24
     },
     {
       "accession_number": "0001082906-25-000003",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/1065280/000108290625000003/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Non-Qualified Stock Option (right to buy)",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 51.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "derivative": true,
+          "underlying_shares": 51.0
+        }
+      ],
       "issuer": {
         "name": "NETFLIX INC",
         "cik": "0001065280",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     }
   ],
-  "last_updated": "2025-09-06T22:05:06.640446"
+  "last_updated": "2025-09-06T23:04:22.919210"
 }

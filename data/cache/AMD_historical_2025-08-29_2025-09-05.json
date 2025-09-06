@@ -7,12 +7,33 @@
       "accession_number": "0000002488-25-000149",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000149/wk-form4_1757017069.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 143.0,
+          "price_per_share": 158.1,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 11901.0
+        }
+      ],
       "issuer": {
         "name": "ADVANCED MICRO DEVICES INC",
         "cik": "0000002488",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     }
   ],
-  "last_updated": "2025-09-06T22:05:07.660499"
+  "last_updated": "2025-09-06T23:04:24.674002"
 }

@@ -7,92 +7,424 @@
       "accession_number": "0000789019-25-000020",
       "filing_date": "2025-09-04",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000020/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 308870.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 1062420.244
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 122362.866,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 940057.378
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 25836.0,
+          "price_per_share": 503.0039,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 914221.378
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 26494.0,
+          "price_per_share": 503.9079,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 887727.378
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 48267.0,
+          "price_per_share": 504.9528,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 839460.378
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 39071.0,
+          "price_per_share": 505.8567,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 800389.378
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 9037.0,
+          "price_per_share": 506.6187,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 791352.378
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-03",
+          "transaction_code": "S",
+          "transaction_type": "Sale",
+          "shares": 500.0,
+          "price_per_share": 507.558,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 790852.378
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 8
     },
     {
       "accession_number": "0000789019-25-000018",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000018/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "J",
+          "transaction_type": "Other",
+          "shares": 3621.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "D",
+          "ownership_nature": "I",
+          "remaining_shares": 3622.0
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0000789019-25-000017",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000017/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 47877.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 498937.9943
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 24992.231,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 473945.7633
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     },
     {
       "accession_number": "0000789019-25-000016",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000016/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 17223.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 56334.1965
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 9285.647,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 47048.5495
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     },
     {
       "accession_number": "0000789019-25-000015",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000015/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-08-31",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 3813.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 73530.7436
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 514.557,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 73016.1866
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     },
     {
       "accession_number": "0000789019-25-000014",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000014/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 54053.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 569405.331
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 27989.367,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 541415.964
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     },
     {
       "accession_number": "0000789019-25-000013",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000013/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 20386.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 155273.855
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 10405.23,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 144868.625
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     },
     {
       "accession_number": "0000789019-25-000012",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000012/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 474.598,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 41978.7683
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 1
     },
     {
       "accession_number": "0000789019-25-000011",
       "filing_date": "2025-09-03",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000011/form4.xml",
+      "transactions": [
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "A",
+          "transaction_type": "Award",
+          "shares": 45220.0,
+          "price_per_share": 0.0,
+          "acquired_disposed": "A",
+          "ownership_nature": "D",
+          "remaining_shares": 143230.035
+        },
+        {
+          "security_title": "Common Stock",
+          "transaction_date": "2025-09-02",
+          "transaction_code": "F",
+          "transaction_type": "Tax Withholding",
+          "shares": 23819.354,
+          "price_per_share": 506.69,
+          "acquired_disposed": "D",
+          "ownership_nature": "D",
+          "remaining_shares": 119410.681
+        }
+      ],
       "issuer": {
         "name": "MICROSOFT CORP",
         "cik": "0000789019",
         "symbol": null
-      }
+      },
+      "reporting_owner": {
+        "name": null,
+        "cik": null,
+        "is_director": false,
+        "is_officer": false,
+        "is_ten_percent_owner": false
+      },
+      "transaction_count": 2
     }
   ],
-  "last_updated": "2025-09-06T22:04:30.901167"
+  "last_updated": "2025-09-06T23:03:47.316546"
 }
