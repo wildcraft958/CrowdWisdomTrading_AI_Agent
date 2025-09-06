@@ -2,7 +2,7 @@
 Report Agent for generating comprehensive trading intelligence reports.
 """
 import logging
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from datetime import datetime
 from tools.chart_tool import generate_chart
 from tools.llm_tool import summarize_report

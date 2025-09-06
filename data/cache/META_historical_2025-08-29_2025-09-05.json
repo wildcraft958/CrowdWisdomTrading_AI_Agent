@@ -1,0 +1,28 @@
+{
+  "symbol": "META",
+  "date_range": "2025-08-29 to 2025-09-05",
+  "filings_count": 2,
+  "filings": [
+    {
+      "accession_number": "0000950103-25-011299",
+      "filing_date": "2025-09-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011299/dp233881_4-newstead.xml",
+      "issuer": {
+        "name": "Meta Platforms, Inc.",
+        "cik": "0001326801",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000950103-25-011298",
+      "filing_date": "2025-09-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011298/dp233880_4-olivan.xml",
+      "issuer": {
+        "name": "Meta Platforms, Inc.",
+        "cik": "0001326801",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:04:47.490429"
+}

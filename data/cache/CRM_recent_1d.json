@@ -1,0 +1,17 @@
+{
+  "symbol": "CRM",
+  "filings_count": 1,
+  "filings": [
+    {
+      "accession_number": "0001108524-25-000095",
+      "filing_date": "2025-09-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000095/form4.xml",
+      "issuer": {
+        "name": "Salesforce, Inc.",
+        "cik": "0001108524",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:04:13.317398"
+}

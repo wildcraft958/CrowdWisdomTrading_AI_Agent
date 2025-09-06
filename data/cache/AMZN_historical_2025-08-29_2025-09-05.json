@@ -1,0 +1,28 @@
+{
+  "symbol": "AMZN",
+  "date_range": "2025-08-29 to 2025-09-05",
+  "filings_count": 2,
+  "filings": [
+    {
+      "accession_number": "0001018724-25-000112",
+      "filing_date": "2025-09-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000112/wk-form4_1757021968.xml",
+      "issuer": {
+        "name": "AMAZON COM INC",
+        "cik": "0001018724",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001018724-25-000110",
+      "filing_date": "2025-09-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000110/wk-form4_1756846328.xml",
+      "issuer": {
+        "name": "AMAZON COM INC",
+        "cik": "0001018724",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:04:36.723018"
+}

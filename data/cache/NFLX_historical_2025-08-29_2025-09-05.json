@@ -1,0 +1,138 @@
+{
+  "symbol": "NFLX",
+  "date_range": "2025-08-29 to 2025-09-05",
+  "filings_count": 13,
+  "filings": [
+    {
+      "accession_number": "0001065280-25-000373",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000373/wk-form4_1756947390.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001370931-25-000004",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000137093125000004/wk-form4_1756947229.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001065280-25-000369",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000369/wk-form4_1756947205.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001065280-25-000368",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000368/wk-form4_1756947182.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001065280-25-000367",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000367/wk-form4_1756947159.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001244892-25-000003",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000124489225000003/wk-form4_1756947132.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001065280-25-000366",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000366/wk-form4_1756947110.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001065280-25-000364",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000364/wk-form4_1756947031.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001218352-25-000003",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000121835225000003/wk-form4_1756946638.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001638276-25-000004",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000163827625000004/wk-form4_1756946600.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001543133-25-000004",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000154313325000004/wk-form4_1756946541.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001065280-25-000362",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000362/wk-form4_1756946285.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001082906-25-000003",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000108290625000003/form4.xml",
+      "issuer": {
+        "name": "NETFLIX INC",
+        "cik": "0001065280",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:05:06.640446"
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "NVDA",
+  "date_range": "2025-08-29 to 2025-09-05",
+  "filings_count": 5,
+  "filings": [
+    {
+      "accession_number": "0001219888-25-000005",
+      "filing_date": "2025-09-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000121988825000005/wk-form4_1757019606.xml",
+      "issuer": {
+        "name": "NVIDIA CORP",
+        "cik": "0001045810",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001283854-25-000004",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000128385425000004/wk-form4_1756946639.xml",
+      "issuer": {
+        "name": "NVIDIA CORP",
+        "cik": "0001045810",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001197652-25-000005",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119765225000005/wk-form4_1756946443.xml",
+      "issuer": {
+        "name": "NVIDIA CORP",
+        "cik": "0001045810",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001768670-25-000005",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000176867025000005/wk-form4_1756946210.xml",
+      "issuer": {
+        "name": "NVIDIA CORP",
+        "cik": "0001045810",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0001197649-25-000027",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000027/wk-form4_1756945908.xml",
+      "issuer": {
+        "name": "NVIDIA CORP",
+        "cik": "0001045810",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:04:43.693256"
+}

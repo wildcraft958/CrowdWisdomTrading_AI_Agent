@@ -1,0 +1,38 @@
+{
+  "symbol": "GOOGL",
+  "date_range": "2025-08-29 to 2025-09-05",
+  "filings_count": 3,
+  "filings": [
+    {
+      "accession_number": "0000950170-25-113278",
+      "filing_date": "2025-09-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000095017025113278/ownership.xml",
+      "issuer": {
+        "name": "Alphabet Inc.",
+        "cik": "0001652044",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000950170-25-112321",
+      "filing_date": "2025-08-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000095017025112321/ownership.xml",
+      "issuer": {
+        "name": "Alphabet Inc.",
+        "cik": "0001652044",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000950170-25-112319",
+      "filing_date": "2025-08-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000095017025112319/ownership.xml",
+      "issuer": {
+        "name": "Alphabet Inc.",
+        "cik": "0001652044",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:04:33.641960"
+}

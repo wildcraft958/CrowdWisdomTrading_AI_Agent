@@ -1,0 +1,98 @@
+{
+  "symbol": "MSFT",
+  "date_range": "2025-08-29 to 2025-09-05",
+  "filings_count": 9,
+  "filings": [
+    {
+      "accession_number": "0000789019-25-000020",
+      "filing_date": "2025-09-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000020/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000018",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000018/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000017",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000017/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000016",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000016/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000015",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000015/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000014",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000014/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000013",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000013/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000012",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000012/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    },
+    {
+      "accession_number": "0000789019-25-000011",
+      "filing_date": "2025-09-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901925000011/form4.xml",
+      "issuer": {
+        "name": "MICROSOFT CORP",
+        "cik": "0000789019",
+        "symbol": null
+      }
+    }
+  ],
+  "last_updated": "2025-09-06T22:04:30.901167"
+}
