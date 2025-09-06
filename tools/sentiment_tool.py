@@ -1,6 +1,6 @@
 """
 Social sentiment analysis tool for X (Twitter) creators and general sentiment analysis.
-Uses multiple data sources including RSS feeds, news APIs, and web scraping.
+Uses multiple data sources including Brave Search, RSS feeds, news APIs, and LLM-powered sentiment analysis.
 """
 import os
 import logging
@@ -17,13 +17,23 @@ import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 import random
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv('configs/.env')
+
+# Import our new services
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from services.llm_service import LLMSentimentService
+from services.brave_search_service import BraveSearchService
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class SentimentAnalyzer:
-    """Sentiment analysis using multiple real data sources."""
+    """Sentiment analysis using multiple real data sources and LLM-powered analysis."""
     
     def __init__(self):
         self.twitter_bearer = os.getenv('TWITTER_BEARER_TOKEN')
@@ -31,6 +41,10 @@ class SentimentAnalyzer:
         self.alpha_vantage_key = os.getenv('ALPHA_VANTAGE_API_KEY', '')
         self.cache_dir = Path("data/cache/sentiment")
         self.cache_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Initialize new services
+        self.brave_search = BraveSearchService()
+        self.llm_sentiment = LLMSentimentService()
         
         # Rate limiting
         self.last_request_time = {}
@@ -84,27 +98,32 @@ class SentimentAnalyzer:
                 # Get real data from multiple sources
                 all_content = []
                 
-                # Source 1: News mentions and sentiment
+                # Source 1: Brave Search for real-time web and news content
+                brave_content = self._get_brave_search_mentions(profile_clean, symbols)
+                if brave_content:
+                    all_content.extend(brave_content)
+                    if 'brave_search' not in results['data_sources_used']:
+                        results['data_sources_used'].append('brave_search')
+
+                # Source 2: News mentions and sentiment
                 news_content = self._get_news_mentions(profile_clean, symbols)
                 if news_content:
                     all_content.extend(news_content)
                     if 'news_api' not in results['data_sources_used']:
                         results['data_sources_used'].append('news_api')
-                
-                # Source 2: Social media RSS feeds and mentions
+
+                # Source 3: Social media RSS feeds and mentions
                 rss_content = self._get_rss_mentions(profile_clean, symbols)
                 if rss_content:
                     all_content.extend(rss_content)
                     if 'rss_feeds' not in results['data_sources_used']:
-                        results['data_sources_used'].append('rss_feeds')
-                
-                # Source 3: Financial news sentiment
+                        results['data_sources_used'].append('rss_feeds')                # Source 3: Financial news sentiment
                 financial_content = self._get_financial_sentiment(profile_clean, symbols)
                 if financial_content:
                     all_content.extend(financial_content)
                     if 'financial_news' not in results['data_sources_used']:
                         results['data_sources_used'].append('financial_news')
-                
+
                 # Source 4: Alternative Twitter data (if available)
                 if self.twitter_bearer:
                     try:
@@ -115,7 +134,7 @@ class SentimentAnalyzer:
                                 results['data_sources_used'].append('twitter_alternative')
                     except Exception as e:
                         logger.warning(f"Twitter alternative failed for {profile_clean}: {e}")
-                
+
                 if not all_content:
                     logger.warning(f"No real content found for {profile_clean}")
                     results['profile_results'][profile_clean] = {
@@ -124,16 +143,27 @@ class SentimentAnalyzer:
                         'sentiment_score': 0
                     }
                     continue
-                
-                # Analyze sentiment for all collected content
+
+                # Analyze sentiment using LLM for all collected content
                 profile_sentiments = []
+                context = {
+                    'profile': profile_clean,
+                    'symbols': symbols,
+                    'source': 'multi_source'
+                }
+                
                 for content in all_content:
-                    sentiment = self._analyze_advanced_sentiment(content['text'])
+                    # Use LLM sentiment analysis instead of keyword-based
+                    content_context = {**context, 'source': content.get('source', 'unknown')}
+                    sentiment = self.llm_sentiment.analyze_sentiment(content['text'], content_context)
+                    
                     if sentiment:
                         sentiment.update({
-                            'source': content.get('source', 'unknown'),
+                            'original_source': content.get('source', 'unknown'),
                             'date': content.get('date', 'unknown'),
-                            'content_preview': content['text'][:150] + '...' if len(content['text']) > 150 else content['text']
+                            'content_preview': content['text'][:150] + '...' if len(content['text']) > 150 else content['text'],
+                            'url': content.get('url', ''),
+                            'title': content.get('title', '')
                         })
                         profile_sentiments.append(sentiment)
                 
@@ -167,7 +197,33 @@ class SentimentAnalyzer:
         
         logger.info(f"Sentiment analysis completed using sources: {results['data_sources_used']}")
         return results
-    
+
+    def _get_brave_search_mentions(self, username: str, symbols: Optional[List[str]] = None) -> List[Dict[str, Any]]:
+        """Get content mentions using Brave Search API."""
+        content = []
+        
+        try:
+            # Search for profile mentions
+            search_results = self.brave_search.search_profile_mentions(username, symbols, days_back=7)
+            
+            for result in search_results[:10]:  # Limit to top 10 results
+                content.append({
+                    'text': result.get('text', ''),
+                    'source': f"brave_{result.get('search_type', 'search')}",
+                    'date': result.get('date', ''),
+                    'url': result.get('url', ''),
+                    'title': result.get('title', ''),
+                    'relevance_score': result.get('calculated_relevance', 0.5),
+                    'publisher': result.get('publisher', 'unknown')
+                })
+            
+            logger.info(f"Found {len(content)} Brave Search mentions for {username}")
+            
+        except Exception as e:
+            logger.warning(f"Error getting Brave Search mentions for {username}: {e}")
+        
+        return content
+
     def _get_news_mentions(self, username: str, symbols: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         """Get news articles mentioning the person/profile."""
         content = []
@@ -444,15 +500,23 @@ class SentimentAnalyzer:
         
         return content
     
-    def _analyze_advanced_sentiment(self, text: str) -> Dict[str, Any]:
-        """Advanced sentiment analysis with financial context."""
+    def _analyze_advanced_sentiment(self, text: str, context: Dict[str, Any] = None) -> Dict[str, Any]:
+        """Advanced sentiment analysis with LLM as primary method and keyword fallback."""
         
         # Clean and prepare text
         text_clean = self._clean_text(text)
         if not text_clean or len(text_clean.strip()) < 5:
             return None
         
-        # Multi-method sentiment analysis
+        # Try LLM sentiment analysis first
+        try:
+            llm_result = self.llm_sentiment.analyze_sentiment(text_clean, context)
+            if llm_result and llm_result.get('confidence', 0) > 0.3:
+                return llm_result
+        except Exception as e:
+            logger.warning(f"LLM sentiment analysis failed, using fallback: {e}")
+        
+        # Fallback to multi-method sentiment analysis
         sentiment_scores = []
         
         # Method 1: Financial keyword analysis
@@ -472,7 +536,9 @@ class SentimentAnalyzer:
         
         # Combine results with weighted average
         if sentiment_scores:
-            return self._combine_sentiment_scores(sentiment_scores, text_clean)
+            result = self._combine_sentiment_scores(sentiment_scores, text_clean)
+            result['source'] = 'keyword_fallback'
+            return result
         else:
             return {
                 'sentiment': 'neutral',
