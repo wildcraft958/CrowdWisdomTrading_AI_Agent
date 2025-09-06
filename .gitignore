@@ -3,17 +3,35 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.env
-.env*
 venv/
 ENV/
+env/
+.venv/
 *.sqlite3
 *.db
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files - CRITICAL: Never commit these!
+*.env
+.env*
+configs/.env
+configs/*.env
+
+# Logs
 *.log
+logs/
+*.out
+
+# Data files
 *.csv
 *.tsv
 *.dat
-*.egg-info/
+*.json.bak
+output/
+cache/
 
 # Jupyter
 .ipynb_checkpoints
@@ -21,26 +39,47 @@ ENV/
 
 # VSCode
 .vscode/
+.vscode/settings.json
 
-# Secrets
+# Secrets and API keys - CRITICAL: Never commit these!
 *.secret
 *.key
 *.pem
 *.crt
 *.pfx
-*.env
-.env.*
+api_keys.yaml
+openrouter_api_key.txt
 config.yaml
+secrets/
+credentials/
 
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Others
+# Temporary files
+*.tmp
+*.temp
 *.bak
 *.swp
 *.swo
+*~
 
-# Ignore API keys
-api_keys.yaml
-openrouter_api_key.txt
+# IDE files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+*.tar.gz
+*.zip
+
+# Node modules (if any JS tools are used)
+node_modules/
